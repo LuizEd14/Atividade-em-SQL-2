@@ -13,7 +13,7 @@ CREATE TABLE empregado (
 );
 
 -- Inserção dos registros na tabela empregado
-INSERT INTO empregado (Codigo, Nome, DEPTO, Salario) VALUES
+INSERT INTO empregado (Codigo, Nome, DEPTO, Salario)
 VALUES
 (43500, 'Ana da Silva', 9411, 5200.00),
 (43501, 'Vitoria Beatriz', 9411, 3400.00),
