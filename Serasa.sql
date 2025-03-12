@@ -13,12 +13,17 @@ CREATE TABLE empregado (
 );
 
 -- Inserção dos registros na tabela empregado
-INSERT INTO empregado (Codigo, Nome, Salario, DEPTO) VALUES
-(43500, 'João Silva', 5200.00, 9411),
-(43501, 'Maria Souza', 6800.00, 9412),
-(43502, 'Carlos Pereira', 5200.00, 9413),
-(43503, 'Ana Lima', 3000.00, 9414),
-(43504, 'Pedro Santos', 3380.00, 9415);
+INSERT INTO empregado (Codigo, Nome, DEPTO, Salario) VALUES
+VALUES
+(43500, 'Ana da Silva', 9411, 5200.00),
+(43501, 'Vitoria Beatriz', 9411, 3400.00),
+(43502, 'Pedro José', 9412, 2600.00),
+(43503, 'Amary Manoel', 9412, 8400.00),
+(43504, 'Carlos Silva', 9412, 5600.00),
+(43505, 'Vitorio Cardoso', 9413, 2300.00),
+(43506, 'Carlos Ives Souza', 9413, 3380.00),
+(43507, 'Victor Silva', 9413, 4500.00),
+(43508, 'Saulo Monteiro', 9413, 6800.00);
 
 -- Alteração do departamento de todos para 9414
 UPDATE empregado SET DEPTO = 9414;
